@@ -1,4 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import "tailwindcss/tailwind.css";
+import "../styles/globals.css"; // import global CSS
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
